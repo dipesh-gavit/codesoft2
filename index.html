@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dipesh Gavit Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="fanta.css">
+</head>
+<body>
+    <header>
+        <a href="/">Dipesh Gavit</a>
+        <nav>
+            <a target="_blank" href="https://github.com/dipeshgavit666"><i class="fa-brands fa-github"></i></a>
+            <a target="_blank" href="https://www.linkedin.com/in/dipesh-gavit-7040b5236/"><i class="fa-brands fa-linkedin"></i></a>
+            <a target="_blank" href="https://x.com/DipeshGavit333"><i class="fa-brands fa-x-twitter"></i></a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="intro-header">
+                <h1>Hello! I'm Dipesh...</h1>
+                <p>Software Developer</p>
+            </div>
+            <h5 class="intro-description">
+                A software developer. Based in India, I love to
+                walk, play video games, and build out all sorts of fun and useful internet applications!
+            </h5>
+            <div class="links-container">
+                <i class="fa-solid link-arrow fa-arrow-right"></i>
+                <a href="mailto:dipeshgavit333@gmail.com">
+                    Email me
+                </a>
+                <a target="_blank" href="https://github.com/dipeshgavit666">GitHub</a>
+                <a target="_blank" href="https://www.linkedin.com/in/dipesh-gavit-7040b5236/">LinkedIn</a>
+            </div>
+
+            <div style="display: none;" class="color-div">
+                <h4>Pick a color</h4>
+                <p style="display: none;">Great... now it's ruined!</p>
+                <input type="color" id="color-picker" onchange="changeColor()" value="#0084ff" />
+                <button style="display: none;" onclick="resetColor()">Reset</button>
+            </div>
+        </section>
+
+        <section>
+            <h2>Skills</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Area</th>
+                        <th>Technologies</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>JavaScript</td>
+                        <td>ReactJS | React | NextJS | NodeJS & ExpressJS</td>
+                    </tr>
+                    <tr>
+                        <td>Python</td>
+                        <td>Data analysis | Django | Data visualization</td>
+                    </tr>
+                    <tr>
+                        <td>Web</td>
+                        <td>HTML | CSS | TailwindCSS | MongoDB | GIT 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Design</td>
+                        <td>Canvas</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>Lastest Projects</h2>
+            <div class="cards-grid">
+                <div class="project-card">
+                    <div>
+                        <p>Jan 19, 2025</p>
+                        <h4>Brogram</h4>
+                        <div class="tech-list">
+                            <div class="card-button-secondary">
+                                <p>ReactJS</p>
+                            </div>
+                            <div class="card-button-secondary">
+                                <p>TailwindCSS</p>
+                            </div>
+                            <div class="card-button-secondary">
+                                <p>JavaScript</p>
+                            </div>
+                        </div>
+                        <p>The Simple 30 Workouts Training Plan.
+                        </p>
+                        <div class="project-links">
+                            <a target="_blank" href="">Live</a>
+                            <a target="_blank" href="">GitHub</a>
+                        </div>
+                    </div>
+                    <div class="img-div">
+                        <img class="big-img"
+                            src="https://github.com/jamezmca/1_web_portfolio/blob/main/public/brogram.png?raw=true"
+                            alt="smoljames-thumbnail" />
+                    </div>
+                </div>
+
+
+                <div class="project-card">
+                    <div>
+                        <p>Jan 24, 2025</p>
+                        <h4>Smolstore</h4>
+                        <div class="tech-list">
+                            <div class="card-button-secondary">
+                                <p>HTML</p>
+                            </div>
+                            <div class="card-button-secondary">
+                                <p>CSS</p>
+                            </div>
+                            <div class="card-button-secondary">
+                                <p>JavaScript</p>
+                            </div>
+                        </div>
+                        <p>A super cool store for programmers and productivity fiends!
+                        </p>
+                        <div class="project-links">
+                            <a target="_blank" href="">Live</a>
+                            <a target="_blank" href="">GitHub</a>
+                        </div>
+                    </div>
+                    <div class="img-div">
+                        <img class="big-img"
+                            src="https://github.com/jamezmca/1_web_portfolio/blob/main/public/smolstore.png?raw=true"
+                            alt="smoljames-thumbnail" />
+                    </div>
+                </div>
+
+
+                <div class="project-card">
+                    <div>
+                        <p>July 15, 2023</p>
+                        <h4>Expenny | The Subscription Tracker</h4>
+                        <div class="tech-list">
+                            <div class="card-button-secondary">
+                                <p>HTML</p>
+                            </div>
+                            <div class="card-button-secondary">
+                                <p>CSS</p>
+                            </div>
+                            <div class="card-button-secondary">
+                                <p>JavaScript</p>
+                            </div>
+                        </div>
+                        <p>Track all your subscription analytics!
+                        </p>
+                        <div class="project-links">
+                            <a target="_blank" href="">Live</a>
+                            <a target="_blank" href="">GitHub</a>
+                        </div>
+                    </div>
+                    <div class="img-div">
+                        <img class="big-img"
+                            src="https://github.com/jamezmca/1_web_portfolio/blob/main/public/expenny.png?raw=true"
+                            alt="smoljames-thumbnail" />
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>By <a>DipeshGavit</a> ⭐ the repo on <a target="_blank" href="">github</a></p>
+    </footer>
+</body>
+</html>
